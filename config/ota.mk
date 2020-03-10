@@ -1,14 +1,14 @@
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 
-CUSTOM_OTA_VERSION_CODE := ten
+CUSTOM_OTA_VERSION_CODE := Q
 
 CUSTOM_PROPERTIES += \
-    org.pixelexperience.ota.version_code=$(CUSTOM_OTA_VERSION_CODE)
+    ro.artstar.ota.version_code=$(CUSTOM_OTA_VERSION_CODE)
 
 PRODUCT_PACKAGES += \
     Updates
 
 PRODUCT_COPY_FILES += \
-    vendor/aosp/config/permissions/org.pixelexperience.ota.xml:system/etc/permissions/org.pixelexperience.ota.xml
+    vendor/asop/config/permissions/ro.artstar.ota.xml:system/etc/permissions/ro.artstar.ota.xml
 
 endif
