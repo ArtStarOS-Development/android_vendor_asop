@@ -11,6 +11,8 @@ CUSTOM_BUILD_DATE := $(CUSTOM_DATE_YEAR)$(CUSTOM_DATE_MONTH)$(CUSTOM_DATE_DAY)-$
 
 CUSTOM_PLATFORM_VERSION := 10.0
 
+CUSTOM_ARTSTAR_VERSION := Summer
+
 CUSTOM_DATE_CODE := $(CUSTOM_DATE_HOUR)$(CUSTOM_DATE_MINUTE)
 
 TARGET_PRODUCT_SHORT := $(subst artstar_,,$(CUSTOM_BUILD))
@@ -23,7 +25,8 @@ CUSTOM_PROPERTIES := \
     ro.artstar.version.display=$(CUSTOM_VERSION) \
     ro.artstar.build_date=$(CUSTOM_BUILD_DATE) \
     ro.artstar.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    ro.artstar.build_type=$(CUSTOM_BUILD_TYPE)
+    ro.artstar.build_type=$(CUSTOM_BUILD_TYPE) \
+    ro.artstar.custom_version=$(CUSTOM_ARTSTAR_VERSION)
 
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/secure/releasekey
