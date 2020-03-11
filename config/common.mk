@@ -142,6 +142,9 @@ include vendor/asop/config/branding.mk
 # OTA
 # include vendor/asop/config/ota.mk
 
+# Lawnchair
+include vendor/Lawnchair/config.mk
+
 # GApps
 include vendor/gapps/config.mk
 
