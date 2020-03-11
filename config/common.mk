@@ -52,7 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/asop/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
     vendor/asop/config/permissions/privapp-permissions-fm.xml:system/etc/permissions/privapp-permissions-fm.xml \
     vendor/asop/config/permissions/privapp-permissions-snap.xml:system/etc/permissions/privapp-permissions-snap.xml \
-    vendor/asop/config/permissions/privapp-permissions-camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-camera2.xml
+    vendor/asop/config/permissions/privapp-permissions-camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-camera2.xml \
+    vendor/asop/config/permissions/privapp-permissions-livedisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-livedisplay.xml
 
 # Copy all custom init rc files
 $(foreach f,$(wildcard vendor/asop/prebuilt/common/etc/init/*.rc),\
