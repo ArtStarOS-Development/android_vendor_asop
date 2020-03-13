@@ -145,6 +145,9 @@ include vendor/asop/config/branding.mk
 # Lawnchair
 include vendor/Lawnchair/config.mk
 
+# Razer Cortex Game
+include vendor/Razer/config.mk
+
 # GApps
 include vendor/gapps/config.mk
 
