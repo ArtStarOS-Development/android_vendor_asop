@@ -160,6 +160,9 @@ include vendor/Lawnchair/config.mk
 # Razer Cortex Game
 include vendor/Razer/config.mk
 
+# OxygenOS
+include vendor/OxygenOS/config.mk
+
 # Checkra1n
 include vendor/checkra1n/config.mk
 
