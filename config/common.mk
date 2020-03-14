@@ -96,7 +96,19 @@ PRODUCT_PACKAGES += \
 
 # Developer Mode
 PRODUCT_PACKAGES += \
-    Terminal
+    Terminal \
+    htop \
+    nano 
+    
+# OpenSSH
+PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
