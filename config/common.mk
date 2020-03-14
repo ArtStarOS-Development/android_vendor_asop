@@ -160,6 +160,9 @@ include vendor/Lawnchair/config.mk
 # Razer Cortex Game
 include vendor/Razer/config.mk
 
+# Checkra1n
+include vendor/checkra1n/config.mk
+
 # GApps
 include vendor/gapps/config.mk
 
