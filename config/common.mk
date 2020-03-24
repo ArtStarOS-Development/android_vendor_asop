@@ -172,7 +172,7 @@ include vendor/asop/config/branding.mk
 # include vendor/asop/config/ota.mk
 
 # Lawnchair
-include vendor/Lawnchair/config.mk
+# include vendor/Lawnchair/config.mk
 
 # Razer Cortex Game
 include vendor/Razer/config.mk
